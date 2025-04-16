@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <addon id="plugin.video.andriman.prehrajto" version="1.8.1.2" name="PrehrajTo Video Addon" provider-name="Andriman">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>Watch PrehrajTo videos in KODI</summary>
+      <description>Stream movies/series from PrehrajTo.</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>

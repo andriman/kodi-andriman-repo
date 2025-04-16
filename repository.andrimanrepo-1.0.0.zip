@@ -1,0 +1,7 @@
+<addon id="repository.andrimanrepo" version="1.0.0" name="Andriman KODI Repo" provider-name="Andriman">
+  <extension point="xbmc.addon.repository" name="Andriman KODI Repo">
+    <info compressed="false">https://andriman.github.io/kodi-andriman-repo/addons.xml</info>
+    <checksum>https://andriman.github.io/kodi-andriman-repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://andriman.github.io/kodi-andriman-repo</datadir>
+  </extension>
+</addon>
