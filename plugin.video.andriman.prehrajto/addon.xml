@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.andriman.prehrajto"
+version="1.8.1.2"
+name="Přehraj.to"
+provider-name="Andriman">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Přehraj.to MODDED</summary>
+        <description lang="cs">Vyhledávání, přehrávání, stahování filmů a seriálů ze serveru Přehraj.to</description>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
